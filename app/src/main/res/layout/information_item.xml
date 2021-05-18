@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/from_information"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/name"
+            android:textSize="18sp"
+            android:id="@+id/name_Student_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/surname"
+            android:textSize="18sp"
+            android:id="@+id/surname_Student_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/code"
+            android:textSize="18sp"
+            android:id="@+id/code_Student_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/phone"
+            android:textSize="18sp"
+            android:id="@+id/phone_Student_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#302F2F" />
+    </LinearLayout>
+</layout>

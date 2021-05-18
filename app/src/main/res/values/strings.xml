@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StudentList</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="code">Codigo Estudiante</string>
+    <string name="phone">Celular</string>
+
+    <string name="desplegar">Desplegar</string>
+
+</resources>
